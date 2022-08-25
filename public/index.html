@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Tour de Pancake</title>
+    <title>Tour de Pancake 🚴‍♂️</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,9 +13,113 @@
 </head>
   <body>
 
-    <div class="container">
-        <a class="btn btn-primary btn-lg mt-4" href="/signup" role="button">Sign-Up</a>
-    </div>
+    <head>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white border-bottom">
+            <!-- class="rounded-circle" add after alt text to make the logo a circle -->
+            <a class="navbar-brand" href="#"><img src="/public/images/logo.jpg" alt="Tour de Pancake logo" width="55" height="50"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#events">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#shop">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <a class="btn btn-danger my-2 my-sm-0" href="/signup" role="button">Sign-Up</a>
+            </div>
+        </nav>
+    </head>
+
+    <main>
+        <div class="container">
+            <!-- Logo -->
+            <div class="center mb-2">
+                <img src="/public/images/logo.jpg" alt="Tour de Pancake logo" width="300" height="300">
+            </div>
+            <!-- Our Story -->
+            <div id="about">
+                <h1>What is Tour de Pancake?</h1>
+                <p>
+                    Riding bikes with friends around Davis County and eating free pancakes. The routes range from easy to difficult. Cyclist and volunteers are welcome to sign up.
+                    Volunteers can choose from the following jobs: driver, cook, bringing a side dish, or babysitting. Started by John Evans, a guy who loves riding his road bike and cooking breakfast
+                    for people. His wife recently had an accident at home resulting in her becoming a parapalegic. The community came together to help them out, so they would
+                    like a way to give back. All procedes from the swag are donated to people at the such-n-such-place who have recently become wheelchair bound. 
+                </p>
+                <a class="btn btn-danger my-3" href="/signup" role="button">Sign-Up</a>
+            </div>
+            <!-- Events -->
+            <div id="events" class="mt-2">
+                <h1>Events</h1>
+                <ul class="mb-4">
+                    <li>Saturday, March 25, 2023 at 8am
+                        <ul>
+                            <li>Routes: 1, 2</li>
+                        </ul>
+                    </li>
+                    <li>Saturday, March 25, 2023 at 8am
+                        <ul>
+                            <li>Routes: 2, 3</li>
+                        </ul>
+                    </li>
+                    <li>Saturday, March 25, 2023 at 8am
+                        <ul>
+                            <li>Routes: 1, 3</li>
+                        </ul>
+                    </li>
+                    <li>Saturday, March 25, 2023 at 8am
+                        <ul>
+                            <li>Routes: 1, 2, 3</li>
+                        </ul>
+                    </li>
+                </ul>
+                <div>
+                    <h4 class="my-3">🚴Routes</h4>
+                    <div class="row" id="mapImgs">
+                        <img src="/public/images/mockMap.png" alt="route one map" class="col-12 col-md-4 p-1 border border-dark">
+                        <img src="/public/images/mockMap.png" alt="route two map" class="col-12 col-md-4 p-1 border border-dark">
+                        <img src="/public/images/mockMap.png" alt="route three map" class="col-12 col-md-4 p-1 border border-dark">
+                    </div>
+                </div>
+                <div class="my-3">
+                    <h4>🥞Breakfast</h4>
+                    <p>
+                        A complimentary pancake breakfast will be served after the tour at Tolman Park. 
+                        Please be sure to sign up everyone in your party who will be coming to breakfast, 
+                        so we can plan accordingly. We are excited to see you all!</p>
+                    <p>
+                        Tolman Memorial Park<br>
+                        100 N 1300 E, Bountiful, UT 84010
+                    </p>
+                </div>
+                <div class="center">
+                    <img src="/public/images/pancake.jpg" alt="plate of pancakes" class="w-100" id="pancakeImg">
+                </div>
+            </div>
+            <div id="contact" class="mt-4">
+                <h1>Questions?</h1>
+                <p>Please email us <a href = "mailto: tourdepancake@gmail.com">tourdepancake@gmail.com</a> and we will get back to your as soon as possible.</p>
+            </div>
+            
+
+        </div>
+
+    </main>
+
+    
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
