@@ -6,7 +6,11 @@ body {
     height:100%;
     margin: 0;
     background: var(--red);
-  }
+}
+
+#mainLogo {
+    margin-top: 125px;
+}
 
 .container {
     /* border: 3px solid blue; */
